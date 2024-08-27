@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel at tips</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <div class="navbar">
+        <!-- Logo and Website Name -->
+        <div class="logo-container">
+            <img src="logo.png" alt="Website Logo" class="logo">
+            <span class="website-name">Travel at tips</span>
+        </div>
+
+        <!-- Links to different pages -->
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- Search bar and buttons -->
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text" name="query" placeholder="Search...">
+                <input type="submit" value="Search">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+    <div class="home-container">
+        <img src="background.jpg" alt="Travel Background" class="background-image">
+        <div class="intro">
+            <h1>Welcome to Travel at Tips</h1>
+            <p>Your ultimate travel guide for discovering new destinations.</p>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.jpg" alt="Facebook"></a>
+                <a href="#"><img src="twitter-logo.png" alt="Twitter"></a>
+                <a href="#"><img src="insta-icon.jpg" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+    
+    <h2>About Travel at Tips</h2>
+    <p>TravelBloom is a dedicated platform that helps travelers discover the best destinations around the world.</p>
+    
+    <h3>Our Team</h3>
+    <ul>
+        <li>Piyush Trivedi - Founder & CEO</li>
+        <li>Saima Mehndi - Chief Travel Officer</li>
+        <li>Michael Jackson - Lead Developer</li>
+    </ul>
+    
+    <h2>Contact Us</h2>
+<form id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
